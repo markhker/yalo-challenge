@@ -1,0 +1,8 @@
+{
+  "name": "yalo-challenge",
+  "version": "1.0.0",
+  "description": "Challenge for Yalo",
+  "main": "index.js",
+  "author": "@markhker",
+  "license": "MIT"
+}
