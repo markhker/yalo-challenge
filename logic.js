@@ -14,11 +14,6 @@ const parseStringExpression = (expression, context) => {
     }
   })
 
-  // special case if its a factorial, only works with one number, no parenthesis... e.g: '10!'
-  if (expression.charAt(expression.length - 1) === '!') {
-    expression = expression.slice(0, -1)
-    expression = factorialize(+expression)
-  }
   // Ovbiously this has to be sanitized before executing, but for sake of simplicity...
   return Function(`return ${expression};`)()
 
