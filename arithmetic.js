@@ -1,5 +1,5 @@
 const factorialize = (num) => {
-  if (num < 0) return -1 // cannot foactorialize negative numbers
+  if (num < 0) return -1 // cannot factorialize negative numbers
   else if (num == 0) return 1 // the factorial of 0 is 1
   else {
     return (num * factorialize(num - 1)) // Recursive method, multiply until run out of numbers
