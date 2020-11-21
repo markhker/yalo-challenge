@@ -1,0 +1,9 @@
+{
+	"expression": "485+980-785",
+	"save": "result",
+	"transitions": {
+		"next": 25,
+		"error": 50
+	},
+	"context": {}
+}

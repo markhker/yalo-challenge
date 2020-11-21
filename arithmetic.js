@@ -1,5 +1,3 @@
-const data = require('./testFiles/arithmetic-case-3.json')
-
 const factorialize = (num) => {
   if (num < 0) return -1 // cannot foactorialize negative numbers
   else if (num == 0) return 1 // the factorial of 0 is 1
@@ -59,4 +57,4 @@ const getResult = data => {
   return JSON.stringify({ [save]: result, transition })
 }
 
-console.log(getResult(data))
+module.exports = getResult

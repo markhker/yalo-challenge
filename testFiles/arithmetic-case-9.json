@@ -1,0 +1,9 @@
+{
+	"expression": "((185-84)/2) + ((895/2)**3)",
+	"save": "result",
+	"transitions": {
+		"next": 25,
+		"error": 50
+	},
+	"context": {}
+}

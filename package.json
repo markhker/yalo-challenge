@@ -4,5 +4,11 @@
   "description": "Challenge for Yalo",
   "main": "index.js",
   "author": "@markhker",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }

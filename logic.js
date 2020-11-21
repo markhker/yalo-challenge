@@ -1,5 +1,3 @@
-const data = require('./testFiles/logic-case-1.json')
-
 const parseStringExpression = (expression, context) => {
   // Replace all context occurrences with actual values
   Object.keys(context).forEach( key => {
@@ -53,4 +51,4 @@ const getResult = data => {
   return JSON.stringify({ [save]: result, transition })
 }
 
-console.log(getResult(data))
+module.exports = getResult

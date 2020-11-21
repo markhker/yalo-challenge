@@ -1,0 +1,15 @@
+{
+	"expression": "(amount == min) && (age > permit)",
+	"save": "result",
+	"transitions": {
+		"isTrue": 5,
+		"isFalse": 10,
+		"isError": 25
+	},
+	"context": {
+		"amount": 1286,
+		"min": 1286,
+		"age": 25,
+		"permit": 18
+	}
+}
